@@ -1,5 +1,6 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import { DataService } from '../../../core/services/data.service';
+import * as L from "leaflet"
 
 @Component({
   selector: 'app-map-tarija',
@@ -8,28 +9,34 @@ import { DataService } from '../../../core/services/data.service';
   templateUrl: './map-tarija.component.html',
   styleUrl: './map-tarija.component.scss'
 })
-export class MapTarijaComponent {
+
+export class MapTarijaComponent implements OnInit {
   map_tarija: any
   layer_tarija: any
   map: any
 
-  constructor(private data: DataService) {}
+  constructor(private data: DataService) { }
 
-  ngOnInit(): void{
+  ngOnInit(): void {
     this.getMap()
     this.getTarija()
   }
 
-  getTarija(){
+  getTarija() {
     this.data.getTarija().subscribe(
       json => {
         this.map_tarija = json
-        this.layer_tarija = L.geojson(this.map_tarija).addTo(this.map)
+        this.layer_tarija = L.geoJSON(this.map_tarija).addTo(this.map)
       }
     )
   }
 
-  getMap()[
-    this.map = L.map('map').setView()
-  ]
+  getMap() {
+    this.map = L.map('map').setView([-21.477846, -64.070991], 13);
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 20,
+      attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(this.map);
+    let marker = L.marker([-21.477846, -64.070991]).addTo(this.map);
+  }
 }
