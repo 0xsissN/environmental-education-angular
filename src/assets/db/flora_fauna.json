@@ -1,0 +1,37 @@
+[
+    {
+        "title": "Ecosistemas Principales",
+        "bosqueA": "Bosque Tucumano-Boliviano",
+        "bosqueB": "Bosque Serrano Chaqueno",
+        "bosqueC": "Bosque Deciduo del Chaco Serrano"
+    },
+    {
+        "title": "Flora",
+        "florA": "Violetas",
+        "florB": "Jazmines",
+        "florC": "Amancayas",
+        "florD": "Azucenas",
+        "florE": "Dalias"
+    },
+    {
+        "title": "Fauna",
+        "animalA": "Oso hormiguero",
+        "animalB": "Jaguar",
+        "animalC": "Pecaries",
+        "animalE": "Flamencos",
+        "animalG": "Dorado"
+    },
+    {
+        "title": "Especies Amenazadas y Endemicas",
+        "especieA": "Jucumari",
+        "especieC": "Mono silvador",
+        "especieD": "Mirlo del agua",
+        "especieE": "Loro Alisero"
+    },
+    {
+        "title": "Recursos Hidricos",
+        "rioA": "Rio Pilcomayo",
+        "rioB": "Rio Bermejo",
+        "rioC": "Rio Grande de Tarija"
+    }
+]
