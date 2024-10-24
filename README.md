@@ -1,11 +1,7 @@
 # EducacionAmbiental
 
 Task diseño
-Navbar
-Footer
 biodiversidad
-clima
-energia
 
 Task js
 Datos como informacion
@@ -16,3 +12,5 @@ Acomodar componentes, estructura
 
 Paquetes instalados
 leaflet
+bootstrap
+

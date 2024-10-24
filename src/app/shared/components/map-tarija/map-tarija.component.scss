@@ -1,4 +1,34 @@
-.map{
-    height: 100vh;
-    border: solid #000 2px;
-}
+.map {
+    height: calc(100vh - 200px); // Altura ajustable pero no tan extrema como 100vh
+    min-height: 500px; // Altura mínima para evitar que sea muy pequeño
+    max-height: 800px; // Altura máxima para pantallas muy grandes
+    max-width: 1200px; // Mismo ancho máximo que las secciones
+    margin: 24px auto; // Centrado y con margen como las secciones
+    border: 2px solid #000; // Mantenemos tu borde negro
+    border-radius: 8px; // Bordes redondeados como las secciones
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); // Sombra sutil
+  
+    // Responsive
+    @media (max-width: 1240px) {
+      max-width: calc(100% - 40px);
+      margin: 24px 20px;
+    }
+  
+    @media (max-width: 768px) {
+      height: calc(100vh - 100px);
+      min-height: 400px;
+    }
+  
+    // Para dispositivos muy pequeños
+    @media (max-width: 480px) {
+      height: calc(100vh - 80px);
+      min-height: 350px;
+    }
+  }
+  
+  // Asegurar que el div interno del mapa tenga la altura completa
+  #map {
+    height: 100%;
+    width: 100%;
+    border-radius: 6px; // Borde interno redondeado
+  }
