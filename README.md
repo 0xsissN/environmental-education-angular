@@ -13,4 +13,5 @@ Acomodar componentes, estructura
 Paquetes instalados
 leaflet
 bootstrap
+fontawesome --> No es usado
 

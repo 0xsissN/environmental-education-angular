@@ -32,11 +32,11 @@ export class MapTarijaComponent implements OnInit {
   }
 
   getMap() {
-    this.map = L.map('map').setView([-21.477846, -64.070991], 13);
+    this.map = L.map('map').setView([-21.538541, -64.733063], 16);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 20,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(this.map);
-    let marker = L.marker([-21.477846, -64.070991]).addTo(this.map);
+    let marker = L.marker([-21.538541, -64.733063]).addTo(this.map);
   }
 }
