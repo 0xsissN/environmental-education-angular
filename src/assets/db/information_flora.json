@@ -1,0 +1,27 @@
+[
+    {
+        "title": "Flor Amancaya",
+        "content": "La Amancaya (Alstroemeria aurea) es una planta perenne, nativa de Sudamérica, especialmente de los Andes. Es apreciada por sus pétalos de tonos cálidos que van desde el amarillo hasta el anaranjado con motas rojizas. Esta flor simboliza la perseverancia y la fuerza, y es valorada tanto por su belleza como por su capacidad de prosperar en condiciones adversas de alta montaña. La Amancaya es frecuentemente utilizada en jardines por su resistencia y capacidad de florecer durante la primavera y el verano, aportando un toque de color a los paisajes naturales.",
+        "imageUrl": "assets/img/flower/amancaya.webp"
+    },
+    {
+        "title": "Flor Azucena",
+        "content": "La Azucena (Lilium candidum), también conocida como lirio blanco o lirio de San Antonio, es una flor que simboliza la pureza y la devoción. Con pétalos de un blanco inmaculado y un dulce aroma, es originaria del Mediterráneo y ha sido utilizada desde tiempos antiguos en ceremonias religiosas y ornamentación. Las azucenas requieren climas templados y suelos bien drenados, y florecen en verano. Son comúnmente vistas en ramos y arreglos florales, especialmente en bodas, debido a su asociación con la pureza y la belleza clásica.",
+        "imageUrl": "assets/img/flower/azucena.webp"
+    },
+    {
+        "title": "Flor Dalias",
+        "content": "Las Dalias (Dahlia spp.) son flores vibrantes y ornamentales originarias de México. Presentan una gran variedad de colores y formas, desde simples y pequeñas hasta complejas y de pétalos gruesos, con tonos que van del blanco al rojo intenso y púrpura. Son símbolos de elegancia, creatividad y fuerza interior. Las dalias florecen en verano y otoño y son populares en jardines y arreglos florales debido a su versatilidad y la amplia gama de opciones estéticas que ofrecen. Requieren un suelo bien drenado y exposición solar parcial.",
+        "imageUrl": "assets/img/flower/dalias.webp"
+    },
+    {
+        "title": "Flor Jazmín",
+        "content": "El Jazmín (Jasminum spp.) es una flor pequeña y fragante, reconocida por su aroma delicado y dulce, que florece principalmente en primavera y verano. Originaria de las regiones tropicales y subtropicales de Asia, esta flor suele ser de color blanco o amarillo. El jazmín simboliza la belleza y el amor, y en algunas culturas también representa la sensualidad y la espiritualidad. Es popular en perfumería y aceites esenciales debido a su fragancia, además de ser utilizado como planta ornamental en jardines y hogares.",
+        "imageUrl": "assets/img/flower/jazmin.webp"
+    },
+    {
+        "title": "Flor Violeta",
+        "content": "La Violeta (Viola odorata), también conocida como Violeta de olor, es una pequeña flor de color púrpura o azulada con un suave perfume. Originaria de Europa y Asia, se caracteriza por sus cinco pétalos delicados y su capacidad para crecer en sombra parcial. Simboliza la humildad, la modestia y la lealtad. Las violetas florecen a finales de invierno o principios de primavera y son apreciadas por su capacidad de dar vida a jardines y parques, además de ser utilizadas en la producción de perfumes y en la medicina natural por sus propiedades relajantes.",
+        "imageUrl": "assets/img/flower/violeta.webp"
+    }
+]

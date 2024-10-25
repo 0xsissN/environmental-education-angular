@@ -1,0 +1,17 @@
+[
+    {
+        "title": "Rio Bermejo",
+        "content": "El Río Bermejo es uno de los ríos más importantes del noroeste de Argentina y del sur de Bolivia, recorriendo aproximadamente 1,300 kilómetros. Nace en las montañas de Bolivia y fluye hacia el sudeste, atravesando la región del Gran Chaco, hasta desembocar en el río Paraguay. Su nombre proviene del color rojizo de sus aguas, producto de la gran cantidad de sedimentos que arrastra desde las montañas. El río Bermejo es vital para la irrigación agrícola y la ganadería en las zonas que atraviesa, y es hogar de una rica biodiversidad. Sin embargo, enfrenta problemas de contaminación y sedimentación que afectan su calidad y biodiversidad.",
+        "imageUrl": "assets/img/river/bermejo.webp"
+    },
+    {
+        "title": "Rio Grande",
+        "content": "El Río Grande, conocido en Bolivia como el Río Guapay, nace en los Andes bolivianos y es uno de los afluentes principales del río Mamoré. Su cauce recorre varios ecosistemas, desde áreas montañosas hasta zonas de selva tropical en los llanos bolivianos. Durante la época de lluvias, su caudal se incrementa notablemente, afectando a las comunidades y la agricultura de la región. Este río es importante para las actividades de pesca y es un elemento central en las culturas y economías locales. Su cuenca alberga una gran diversidad de flora y fauna, aunque está amenazada por la deforestación y la expansión de la frontera agrícola.",
+        "imageUrl": "assets/img/river/grande.webp"
+    },
+    {
+        "title": "Rio Pilcomayo",
+        "content": "El Río Pilcomayo es uno de los principales ríos transfronterizos de Sudamérica, que fluye desde los Andes bolivianos, atraviesa Paraguay y Argentina y finalmente desemboca en el río Paraguay. Su recorrido total es de aproximadamente 1,100 kilómetros, y es fundamental para las poblaciones indígenas y rurales que dependen de él para agua, pesca y agricultura. La cuenca del Pilcomayo es hogar de una biodiversidad única, que incluye especies como el dorado y el yacaré. Sin embargo, el río enfrenta desafíos de contaminación minera, sedimentación y variabilidad en su caudal, que afectan tanto el medio ambiente como las comunidades humanas.",
+        "imageUrl": "assets/img/river/pilcomayo.webp"
+    }
+]

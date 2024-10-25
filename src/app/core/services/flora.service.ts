@@ -5,10 +5,10 @@ import { Observable } from "rxjs";
 @Injectable({
     providedIn: 'root'
 })
-export class IntroService {
-    introUrl: string = 'assets/db/intro.json'
+export class FloraService {
+    floraUrl: string = 'assets/db/information_flora.json'
     constructor(private http: HttpClient) { }
-    getIntro(): Observable<any[]> {
-        return this.http.get<any[]>(this.introUrl)
+    getFlora(): Observable<any[]> {
+        return this.http.get<any[]>(this.floraUrl)
     }
 }

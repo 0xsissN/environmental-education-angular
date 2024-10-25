@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Oso jukumari",
+        "content": "El oso jukumari (Tremarctos ornatus), también conocido como oso de anteojos, es la única especie de oso nativa de América del Sur y vive en los Andes de Venezuela, Colombia, Ecuador, Perú y Bolivia. Es fácilmente reconocible por las manchas blancas alrededor de sus ojos que le dan la apariencia de llevar anteojos. Este oso es de tamaño mediano y su dieta es principalmente herbívora, alimentándose de frutas, cactus y plantas, aunque también puede consumir pequeños animales. Al ser una especie vulnerable, su preservación es fundamental, pues cumple una función importante en la dispersión de semillas y en la conservación del ecosistema andino.",
+        "imageUrl": "assets/img/species/jucumari.webp"
+    },
+    {
+        "title": "Quirquincho",
+        "content": "El quirquincho es una especie de armadillo (Chlamyphoridae) nativa de Sudamérica, especialmente en los Andes y en regiones del Gran Chaco. Existen varias especies, como el quirquincho andino (Chaetophractus nationi) y el quirquincho bola (Tolypeutes matacus). Este animal es conocido por su caparazón rígido y su habilidad para enrollarse y protegerse de los depredadores. Los quirquinchos tienen hábitos nocturnos y se alimentan de insectos, raíces y pequeños invertebrados. Son importantes para la salud del suelo, pues al excavar para buscar alimento, ayudan a airearlo. Sin embargo, algunas especies están amenazadas debido a la pérdida de su hábitat y a la caza.",
+        "imageUrl": "assets/img/species/quirquincho.webp"
+    },
+    {
+        "title": "Mono silbador",
+        "content": "El mono silbador (Alouatta caraya), también conocido como mono aullador o mono negro, es uno de los primates más grandes de América del Sur, presente en bosques y selvas desde Argentina hasta Venezuela. Se caracteriza por su fuerte vocalización, que puede escucharse a kilómetros de distancia y sirve para marcar territorio y comunicarse con otros miembros de su grupo. Los machos suelen tener un pelaje negro mientras que las hembras son de color marrón claro. Son animales herbívoros y se alimentan de hojas, frutos y flores. Los monos silbadores juegan un papel importante en la dispersión de semillas, contribuyendo a la regeneración de los bosques donde habitan.",
+        "imageUrl": "assets/img/species/mono.webp"
+    },
+    {
+        "title": "Taruca",
+        "content": "La taruca (Hippocamelus antisensis), o ciervo andino, es un ciervo nativo de las montañas de los Andes, principalmente en Perú, Bolivia, Chile y Argentina. Es un animal de tamaño mediano, con un pelaje grisáceo que le permite camuflarse entre las rocas y la vegetación de su entorno. La taruca vive en altitudes que van desde los 2,500 a los 5,000 metros y se alimenta de hierbas, arbustos y líquenes. Esta especie es considerada vulnerable debido a la caza y la fragmentación de su hábitat. La taruca es un símbolo de la fauna andina y es clave para el equilibrio ecológico de los pastizales de altura, ya que ayuda a mantener la vegetación en equilibrio.",
+        "imageUrl": "assets/img/species/taruca.webp"
+    }
+]

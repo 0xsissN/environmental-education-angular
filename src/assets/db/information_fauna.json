@@ -1,0 +1,22 @@
+[
+    {
+        "title": "Pez Dorado",
+        "content": "El pez dorado (Salminus brasiliensis), también conocido como dorado o tigre de los ríos, es un pez de agua dulce nativo de Sudamérica, especialmente de las cuencas del río Paraná, Uruguay y Paraguay. Es conocido por su característico color dorado, con tonos de amarillo y naranja en sus escamas, y su comportamiento depredador. Puede llegar a medir hasta un metro de longitud y pesar alrededor de 30 kilogramos. El dorado es un símbolo de la pesca deportiva en la región y se destaca por su gran fuerza y habilidad de salto, lo que lo convierte en un desafío emocionante para los pescadores. Es una especie importante en los ecosistemas de agua dulce, actuando como depredador que ayuda a mantener el equilibrio ecológico.",
+        "imageUrl": "assets/img/animal/dorado.webp"
+    },
+    {
+        "title": "Flamenco",
+        "content": "El flamenco (Phoenicopterus roseus) es una elegante y llamativa ave zancuda que se caracteriza por su color rosa vibrante, que proviene de los pigmentos carotenoides presentes en su dieta, principalmente algas y pequeños crustáceos. Los flamencos habitan en zonas húmedas como lagunas y estuarios de aguas salobres en varios continentes, incluidas América del Sur, África y Asia. Son conocidos por su comportamiento social y suelen formar grandes colonias. Estas aves simbolizan gracia y equilibrio, y se destacan por su particular manera de dormir sobre una sola pata y su método de alimentación por filtración, en el que usan su pico para separar la comida del agua.",
+        "imageUrl": "assets/img/animal/flamenco.webp"
+    },
+    {
+        "title": "Jaguar",
+        "content": "El jaguar (Panthera onca) es el felino más grande de América y es fácilmente reconocible por su pelaje amarillo con manchas negras en forma de rosetas. Habita en áreas tropicales y subtropicales de América Latina, desde México hasta Argentina, y es particularmente abundante en la Amazonía. El jaguar es un cazador solitario y extremadamente fuerte, capaz de enfrentar presas de gran tamaño. Esta especie es considerada un símbolo de poder y agilidad en las culturas precolombinas, además de ser clave en los ecosistemas que habita, pues ayuda a controlar poblaciones de otras especies, manteniendo el equilibrio ecológico.",
+        "imageUrl": "assets/img/animal/jaguar.webp"
+    },
+    {
+        "title": "Pecari",
+        "content": "El pecarí (Pecari tajacu), también conocido como jabalí americano o chancho de monte, es un mamífero similar a un cerdo que habita en áreas boscosas y selvas de América, desde el sur de Estados Unidos hasta Sudamérica. Se caracteriza por su robusto cuerpo y pelaje oscuro, con una banda blanca en el cuello. Los pecaríes suelen vivir en grupos familiares y son animales sociales que comunican entre sí mediante gruñidos y olores. Su dieta es variada, incluyendo frutas, raíces y pequeños animales. En el ecosistema, el pecarí desempeña un papel importante como dispersor de semillas, ayudando a mantener la diversidad vegetal en los bosques que habita.",
+        "imageUrl": "assets/img/animal/pecaries.webp"
+    }
+]

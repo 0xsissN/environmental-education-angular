@@ -1,0 +1,36 @@
+<div class="carousel-container">
+  <div *ngFor="let item of carousel" class="carousel-section">
+    <h2 class="carousel-title">{{item.title}}</h2>
+    <div [id]="'carousel-' + item.title.toLowerCase().replace(' ', '-')" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button *ngFor="let image of item.images; let i = index" type="button"
+          [attr.data-bs-target]="'#carousel-' + item.title.toLowerCase().replace(' ', '-')" [attr.data-bs-slide-to]="i"
+          [class.active]="i === 0" [attr.aria-current]="i === 0" [attr.aria-label]="'Slide ' + (i + 1)">
+        </button>
+      </div>
+
+      <div class="carousel-inner">
+        <div *ngFor="let image of item.images; let i = index" class="carousel-item" [class.active]="i === 0">
+          <img [src]="image.url" class="d-block w-100" [alt]="image.alt">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button"
+        [attr.data-bs-target]="'#carousel-' + item.title.toLowerCase().replace(' ', '-')" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button"
+        [attr.data-bs-target]="'#carousel-' + item.title.toLowerCase().replace(' ', '-')" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <div class="button-container">
+      <button class="btn btn-primary view-more-btn" [routerLink]="item.link || '/information'">
+        Ver más información
+      </button>
+    </div>
+  </div>
+</div>
