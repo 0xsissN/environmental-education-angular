@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
 import { NavbarComponent } from '../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../shared/components/footer/footer.component';
-import { VideoService } from '../core/services/videos.service';
 import { CardVideoSectionComponent } from '../shared/components/card-video-section/card-video-section.component';
+import { DataService } from '../core/services/data.service';
 
 @Component({
   selector: 'app-videos',
@@ -13,9 +13,11 @@ import { CardVideoSectionComponent } from '../shared/components/card-video-secti
 })
 export class VideosComponent {
   sectionsData: any[] = []
-  constructor(private videoService: VideoService) { }
+  
+  constructor(private dataService: DataService) { }
+
   ngOnInit() {
-    this.videoService.getVideos().subscribe(
+    this.dataService.getVideos().subscribe(
       data => this.sectionsData = data
     )
   }

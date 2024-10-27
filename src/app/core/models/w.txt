@@ -1,3 +1,0 @@
-Modelos de datos, como van a hacer
-Interfaces
-

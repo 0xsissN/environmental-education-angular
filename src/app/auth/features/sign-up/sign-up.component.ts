@@ -21,7 +21,7 @@ export default class SignUpComponent {
   private _formBuilder = inject(FormBuilder)
   private _authService = inject(AuthService)
   private _router = inject(Router)
-
+  
   isRequired(field: 'email' | 'password') {
     return isRequired(field, this.form)
   }

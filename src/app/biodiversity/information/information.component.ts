@@ -2,9 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/footer/footer.component';
 import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
-import { IntroService } from '../../core/services/intro.service';
 import { CarouselImgComponent } from '../../shared/components/carousel-img/carousel-img.component';
-import { CarouselService } from '../../core/services/carousel.service';
+import { DataService } from '../../core/services/data.service';
 
 @Component({
   selector: 'app-information',
@@ -16,14 +15,15 @@ import { CarouselService } from '../../core/services/carousel.service';
 export default class InformationComponent implements OnInit {
   introData: any[] = []
   carouselData: any[] = []
-  constructor(private introService: IntroService, private carouselService: CarouselService) { }
+  
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.introService.getIntro().subscribe(
+    this.dataService.getIntro().subscribe(
       data => this.introData = data
     )
 
-    this.carouselService.getCarousel().subscribe(
+    this.dataService.getCarousel().subscribe(
       data => this.carouselData = data
     )
   }

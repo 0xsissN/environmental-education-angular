@@ -4,8 +4,6 @@ Task diseño
 Estilos navbar, main, footer
 
 Task js
-Proteger /videos
-Auth con Firebase
 Hacer traduccion rutas/contenido
 Desplegar en Netlify
 

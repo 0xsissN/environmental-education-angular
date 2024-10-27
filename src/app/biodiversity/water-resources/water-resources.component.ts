@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/footer/footer.component';
 import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
-import { WaterService } from '../../core/services/water.service';
+import { DataService } from '../../core/services/data.service';
 
 @Component({
   selector: 'app-water-resources',
@@ -13,9 +13,11 @@ import { WaterService } from '../../core/services/water.service';
 })
 export default class WaterResourcesComponent implements OnInit {
   sectionsData: any[] = []
-  constructor(private waterService: WaterService) { }
+
+  constructor(private dataService: DataService) { }
+  
   ngOnInit() {
-    this.waterService.getWater().subscribe(
+    this.dataService.getWater().subscribe(
       data => this.sectionsData = data
     )
   }

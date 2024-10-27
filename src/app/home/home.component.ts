@@ -3,7 +3,7 @@ import { NavbarComponent } from '../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../shared/components/footer/footer.component';
 import { MapTarijaComponent } from '../shared/components/map-tarija/map-tarija.component';
 import { CardSectionComponent } from '../shared/components/card-section/card-section.component';
-import { HomeService } from '../core/services/home.service';
+import { DataService } from '../core/services/data.service';
 
 @Component({
   selector: 'app-home',
@@ -14,10 +14,10 @@ import { HomeService } from '../core/services/home.service';
 })
 export class HomeComponent implements OnInit {
   sectionsData: any[] = []
-  constructor(private homeService: HomeService) { }
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
-    this.homeService.getSections().subscribe(
+    this.dataService.getSections().subscribe(
       data => this.sectionsData = data
     )
   }

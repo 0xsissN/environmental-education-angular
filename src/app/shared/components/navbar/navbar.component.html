@@ -19,5 +19,11 @@
         <a class="nav-link" routerLink="/videos">Videos</a>
       </li>
     </ul>
+    <ul class="navbar-nav auth-button">
+      <li class="nav-item">
+        <a *ngIf="!isAuth" class="nav-link" routerLink="/auth/sign-in">Iniciar sesión</a>
+        <a *ngIf="isAuth" class="nav-link" (click)="logOut()">Cerrar sesión</a>
+      </li>
+    </ul>
   </div>
 </nav>

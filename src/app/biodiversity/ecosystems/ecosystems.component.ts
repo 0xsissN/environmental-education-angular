@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/footer/footer.component';
 import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
-import { EcosystemService } from '../../core/services/ecosystem.service';
+import { DataService } from '../../core/services/data.service';
 
 @Component({
   selector: 'app-ecosystems',
@@ -13,9 +13,11 @@ import { EcosystemService } from '../../core/services/ecosystem.service';
 })
 export default class EcosystemsComponent implements OnInit {
   sectionsData: any[] = []
-  constructor(private ecosystemService: EcosystemService) { }
+
+  constructor(private dataService: DataService) { }
+  
   ngOnInit() {
-    this.ecosystemService.getEcosystem().subscribe(
+    this.dataService.getEcosystem().subscribe(
       data => this.sectionsData = data
     )
   }

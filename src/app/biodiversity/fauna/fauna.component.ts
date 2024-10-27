@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/footer/footer.component';
 import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
-import { FaunaService } from '../../core/services/fauna.service';
+import { DataService } from '../../core/services/data.service';
 
 @Component({
   selector: 'app-fauna',
@@ -13,9 +13,11 @@ import { FaunaService } from '../../core/services/fauna.service';
 })
 export default class FaunaComponent implements OnInit {
   sectionsData: any[] = []
-  constructor(private faunaService: FaunaService) { }
+  
+  constructor(private dataService: DataService) { }
+
   ngOnInit() {
-    this.faunaService.getFauna().subscribe(
+    this.dataService.getFauna().subscribe(
       data => this.sectionsData = data
     )
   }
