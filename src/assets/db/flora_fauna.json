@@ -11,7 +11,7 @@
                 "alt": "Valles Secos Interandinos"
             }
         ],
-        "link": "/ecosystems"
+        "link": "/ecosistemas"
     },
     {
         "title": "Flora",
@@ -81,7 +81,7 @@
                 "alt": "Especie Taruca"
             }
         ],
-        "link": "/species"
+        "link": "/especies"
     },
     {
         "title": "Recursos Hidricos",
@@ -99,6 +99,6 @@
                 "alt": "Río Pilcomayo"
             }
         ],
-        "link": "/water"
+        "link": "/hidricos"
     }
 ]

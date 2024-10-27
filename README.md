@@ -1,14 +1,13 @@
 # EducacionAmbiental
 
 Task diseño
-biodiversidad
+Estilos navbar, main, footer
 
 Task js
-Datos como informacion
-Buscador
-Authenticacion, sha256
-Uso de json para usuarios
-Acomodar componentes, estructura
+Proteger /videos
+Auth con Firebase
+Hacer traduccion
+Desplegar en Netlify
 
 Paquetes instalados
 leaflet

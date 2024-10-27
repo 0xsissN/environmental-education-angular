@@ -1,13 +1,13 @@
 <div class="sections-container">
-    <div *ngFor="let section of sections" class="section-card">
-      <h2 class="section-title">{{section.title}}</h2>
-      <div class="section-content">
-        <div class="text-content">
-          <p>{{section.content}}</p>
-        </div>
-        <div class="image-container">
-          <img [src]="section.imageUrl" [alt]="section.title">
-        </div>
+  <div *ngFor="let section of sections" class="section-card">
+    <h2 class="section-title">{{section.title}}</h2>
+    <div class="section-content">
+      <div class="text-content">
+        <p>{{section.content}}</p>
+      </div>
+      <div class="image-container">
+        <img [src]="section.imageUrl" [alt]="section.title">
       </div>
     </div>
   </div>
+</div>

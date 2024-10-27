@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 import { NgFor } from '@angular/common';
 
-interface Section{
+interface Section {
   title: string,
   content: string,
   imageUrl: string

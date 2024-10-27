@@ -7,22 +7,25 @@ import { FloraComponent } from './flora/flora.component';
 import { FaunaComponent } from './fauna/fauna.component';
 import { SpeciesComponent } from './species/species.component';
 import { WaterResourcesComponent } from './water-resources/water-resources.component';
+import { VideosComponent } from './videos/videos.component';
 
 export const routes: Routes = [
-    {path: "home", component: HomeComponent},
-    {path: "", redirectTo: "/home", pathMatch: "full"},
-    {path: "information", component: InformationComponent},
-    {path: "", redirectTo: "/information", pathMatch: "full"},
-    {path: "contact", component: ContactComponent},
-    {path: "", redirectTo: "/contact", pathMatch: "full"},
-    {path: "ecosystems", component: EcosystemsComponent},
-    {path: "", redirectTo: "/ecosystems", pathMatch: "full"},
+    {path: "inicio", component: HomeComponent},
+    {path: "", redirectTo: "/inicio", pathMatch: "full"},
+    {path: "biodiversidad", component: InformationComponent},
+    {path: "", redirectTo: "/biodiversidad", pathMatch: "full"},
+    {path: "contactanos", component: ContactComponent},
+    {path: "", redirectTo: "/contactanos", pathMatch: "full"},
+    {path: "videos", component: VideosComponent},
+    {path: "", redirectTo: "/videos", pathMatch: "full"},
+    {path: "ecosistemas", component: EcosystemsComponent},
+    {path: "", redirectTo: "/ecosistemas", pathMatch: "full"},
     {path: "flora", component: FloraComponent},
     {path: "", redirectTo: "/flora", pathMatch: "full"},
     {path: "fauna", component: FaunaComponent},
     {path: "", redirectTo: "/fauna", pathMatch: "full"},
-    {path: "species", component: SpeciesComponent},
-    {path: "", redirectTo: "/species", pathMatch: "full"},
-    {path: "water", component: WaterResourcesComponent},
-    {path: "", redirectTo: "/water", pathMatch: "full"}
+    {path: "especies", component: SpeciesComponent},
+    {path: "", redirectTo: "/especies", pathMatch: "full"},
+    {path: "hidricos", component: WaterResourcesComponent},
+    {path: "", redirectTo: "/hidricos", pathMatch: "full"}
 ];

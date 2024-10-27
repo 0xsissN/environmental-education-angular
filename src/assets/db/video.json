@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Áreas protegidas del departamento de Tarija - Esencia Cultural",
+        "description": "Tarija es el departamento que tiene más áreas protegidas en Bolivia. Cuenta con 246.870 hectáreas de superficie protegida y forma parte del Corredor Ecológico Tariquía-Baritú. ",
+        "imageUrl": "assets/img/videosImg/esencia_cultural.webp",
+        "videoUrl": "https://youtu.be/QLTRzAcRFfQ?si=PetCDQ_Wnm66pdiY"
+    },
+    {
+        "title": "🌳 Bioparque Urbano en Tarija 🍃 / WWF Bolivia",
+        "description": "El Fondo Concursable Municipal de WWF, promueve la conservación y protección de espacios verdes urbanos, como el Bioparque Urbano en Tarija.",
+        "imageUrl": "assets/img/videosImg/wwf_bolivia.webp",
+        "videoUrl": "https://youtu.be/jubNL2NVnEk?si=TGYn3895BbLKPHV1"
+    },
+    {
+        "title": "Reserva Nacional de Flora y Fauna Tariquia Tarija Bolivia",
+        "description": "La Reserva Nacional de Flora y Fauna de Tariquía se encuentra en Bolivia, en la región sureste del Departamento de Tarija, en las provincias O'Connor, Arce, Gran Chaco y Cercado, en proximidad a la frontera con la República Argentina.",
+        "imageUrl": "assets/img/videosImg/tariquia.webp",
+        "videoUrl": "https://youtu.be/0hdZmBzUv3Y?si=Be_vBNJg4wQSunW-"
+    },
+    {
+        "title": "Liberación de cóndor Imaybé en Tarija",
+        "description": "El Ministerio de Medio Ambiente y Agua a través del Viceministerio de Medio Ambiente, Biodiversidad, Cambios Climáticos y Gestión y Desarrollo Forestal, en coordinación con el alcalde de Tarija y el SERNAP, liberan a una Cóndor de nombre IMAYBÉ en el bioparque urbano #Tarija.",
+        "imageUrl": "assets/img/videosImg/condor.webp",
+        "videoUrl": "https://youtu.be/jRMJsdMdy-4?si=FDCez9I3N33nGY3p"
+    },
+    {
+        "title": "Tarija, Bolivia (4K)",
+        "description": "Tarija o San Bernardo de Tarija, ciudad fundada con el nombre de Villa de San Bernardo de la Frontera de Tarija es un municipio y una ciudad localizada al sur de Bolivia, ciudad capital de la provincia Cercado y del departamento homónimo.",
+        "imageUrl": "assets/img/videosImg/tarija.webp",
+        "videoUrl": "https://youtu.be/xyzeiUqUdqk?si=ycrb0XwVg1XYhFIn"
+    }
+]
