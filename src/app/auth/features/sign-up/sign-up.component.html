@@ -1,0 +1,51 @@
+<section class="bg-light">
+    <div class="container min-vh-100 d-flex align-items-center justify-content-center py-5">
+        <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="text-center mb-4">
+                <a href="#"
+                    class="text-decoration-none fs-3 fw-semibold text-dark d-flex align-items-center justify-content-center">
+                    <img class="me-2" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/logo.svg" alt="logo"
+                        style="width: 32px; height: 32px;" />
+                    Flowbite
+                </a>
+            </div>
+            <div class="card shadow-sm">
+                <div class="card-body p-4 p-sm-5">
+                    <div class="text-center mb-4">
+                        <h1 class="fs-4 fw-bold">Crea una cuenta</h1>
+                    </div>
+                    <form class="needs-validation" [formGroup]="form" (ngSubmit)="submit()">
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Tu correo</label>
+                            <input type="email" class="form-control" id="email" name="email"
+                                placeholder="name@company.com" formControlName="email" />
+                            @if(isRequired('email')) {
+                            <small class="text-danger">Este campo es requerido</small>
+                            }
+                            @if(hasEmailError()) {
+                            <small class="text-danger">El correo debe ser valido</small>
+                            }
+                        </div>
+                        <div class="mb-3">
+                            <label for="password" class="form-label">Contraseña</label>
+                            <input type="password" class="form-control" id="password" name="password"
+                                placeholder="••••••••" formControlName="password" />
+                            @if(isRequired('password')) {
+                            <small class="text-danger">Este campo es requerido</small>
+                            }
+                        </div>
+                        <button type="submit" class="btn btn-success w-100 mb-3">
+                            Crear
+                        </button>
+                        <p class="text-center text-muted mb-0">
+                            Ya tienes una cuenta?
+                            <a routerLink="/auth/sign-in" class="text-success text-decoration-none">
+                                Inicia sesión
+                            </a>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

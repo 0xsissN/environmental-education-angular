@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "EducacionAmbiental": {
+    "educacionambiental": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -67,10 +67,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "EducacionAmbiental:build:production"
+              "buildTarget": "educacionambiental:build:production"
             },
             "development": {
-              "buildTarget": "EducacionAmbiental:build:development"
+              "buildTarget": "educacionambiental:build:development"
             }
           },
           "defaultConfiguration": "development"

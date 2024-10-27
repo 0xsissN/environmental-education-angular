@@ -1,6 +1,6 @@
 import { NgFor } from '@angular/common';
 import { Component, Input } from '@angular/core';
-import { RouterModule } from '@angular/router';
+import { RouterLink, RouterModule } from '@angular/router';
 
 interface Carousel {
   title: string,
@@ -14,7 +14,7 @@ interface Carousel {
 @Component({
   selector: 'app-carousel-img',
   standalone: true,
-  imports: [NgFor, RouterModule],
+  imports: [NgFor, RouterLink],
   templateUrl: './carousel-img.component.html',
   styleUrl: './carousel-img.component.scss'
 })

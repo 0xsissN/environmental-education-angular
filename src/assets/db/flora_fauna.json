@@ -11,7 +11,7 @@
                 "alt": "Valles Secos Interandinos"
             }
         ],
-        "link": "/ecosistemas"
+        "link": "/biodiversity/ecosystem"
     },
     {
         "title": "Flora",
@@ -37,7 +37,7 @@
                 "alt": "Flor Violeta"
             }
         ],
-        "link": "/flora"
+        "link": "/biodiversity/flora"
     },
     {
         "title": "Fauna",
@@ -59,7 +59,7 @@
                 "alt": "Animal Pecarí"
             }
         ],
-        "link": "/fauna"
+        "link": "/biodiversity/fauna"
     },
     {
         "title": "Especies Amenazadas y Endemicas",
@@ -81,7 +81,7 @@
                 "alt": "Especie Taruca"
             }
         ],
-        "link": "/especies"
+        "link": "/biodiversity/species"
     },
     {
         "title": "Recursos Hidricos",
@@ -99,6 +99,6 @@
                 "alt": "Río Pilcomayo"
             }
         ],
-        "link": "/hidricos"
+        "link": "/biodiversity/water-resource"
     }
 ]

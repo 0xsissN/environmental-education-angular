@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
-import { NavbarComponent } from '../shared/components/navbar/navbar.component';
-import { FooterComponent } from '../shared/components/footer/footer.component';
-import { CardSectionComponent } from '../shared/components/card-section/card-section.component';
-import { FloraService } from '../core/services/flora.service';
+import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
+import { FooterComponent } from '../../shared/components/footer/footer.component';
+import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
+import { FloraService } from '../../core/services/flora.service';
 
 @Component({
   selector: 'app-flora',
@@ -11,7 +11,7 @@ import { FloraService } from '../core/services/flora.service';
   templateUrl: './flora.component.html',
   styleUrl: './flora.component.scss'
 })
-export class FloraComponent implements OnInit {
+export default class FloraComponent implements OnInit {
   sectionsData: any[] = []
   constructor(private floraService: FloraService) { }
   ngOnInit() {
