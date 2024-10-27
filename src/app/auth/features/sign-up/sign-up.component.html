@@ -31,7 +31,10 @@
                             <input type="password" class="form-control" id="password" name="password"
                                 placeholder="••••••••" formControlName="password" />
                             @if(isRequired('password')) {
-                            <small class="text-danger">Este campo es requerido</small>
+                            <small class="text-danger">Este campo es requerido</small><br>
+                            }
+                            @if(passwordCorrect('password')) {
+                            <small class="text-danger">Contraseña debe ser contener más de 6 caracteres</small>
                             }
                         </div>
                         <button type="submit" class="btn btn-success w-100 mb-3">

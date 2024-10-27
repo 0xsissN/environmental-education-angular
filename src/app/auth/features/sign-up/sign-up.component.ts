@@ -1,6 +1,6 @@
 import { Component, inject } from '@angular/core';
 import { FormBuilder, FormControl, ReactiveFormsModule, Validators } from '@angular/forms'
-import { hasEmailError, isRequired } from '../../utils/validators';
+import { hasEmailError, isRequired, passwordCorrect } from '../../utils/validators';
 import { AuthService } from '../../data-access/auth.service';
 import { toast } from 'ngx-sonner';
 import { Router, RouterLink } from '@angular/router';
@@ -28,6 +28,10 @@ export default class SignUpComponent {
 
   hasEmailError() {
     return hasEmailError(this.form)
+  }
+
+  passwordCorrect(field: 'password'){
+    return passwordCorrect(field, this.form)
   }
 
   form = this._formBuilder.group<FormSignUp>({

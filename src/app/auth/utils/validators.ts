@@ -9,3 +9,8 @@ export const hasEmailError = (form: FormGroup) => {
     const control = form.get('email')
     return control && control?.touched && control.hasError('email')
 }
+
+export const passwordCorrect = (field: 'password', form: FormGroup) => {
+    const control = form.get(field)
+    return control && control?.touched && control?.value.length < 5
+}
