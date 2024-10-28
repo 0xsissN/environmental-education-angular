@@ -32,7 +32,7 @@ export class MapTarijaComponent implements OnInit {
   }
 
   getMap() {
-    this.map = L.map('map').setView([-21.538541, -64.733063], 16);
+    this.map = L.map('map').setView([-21.538541, -64.733063], 19);
     L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
       maxZoom: 20,
       attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'

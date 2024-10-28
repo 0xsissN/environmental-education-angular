@@ -1,29 +1,35 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand m-3" routerLink="/home">Biodiversidad</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" routerLink="/home">Inicio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/biodiversity/information">Biodiversidad</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/contact">Contáctanos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" routerLink="/videos">Videos</a>
-      </li>
-    </ul>
-    <ul class="navbar-nav auth-button">
-      <li class="nav-item">
-        <a *ngIf="!isAuth" class="nav-link" routerLink="/auth/sign-in">Iniciar sesión</a>
-        <a *ngIf="isAuth" class="nav-link" (click)="logOut()">Cerrar sesión</a>
-      </li>
-    </ul>
+  <div class="container-fluid">
+    <a class="navbar-brand" routerLink="/home">
+      <img src="../../../../assets/img/icons/logo.svg" alt="logo" class="icon-size">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/home" routerLinkActive="active">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/biodiversity/information" routerLinkActive="active">Biodiversidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/contact" routerLinkActive="active">Contáctanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/videos" routerLinkActive="active">Videos</a>
+        </li>
+      </ul>
+
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a *ngIf="!isAuth" class="nav-link" routerLink="/auth/sign-in">Iniciar sesión</a>
+          <a *ngIf="isAuth" class="nav-link" (click)="logOut()">Cerrar sesión</a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>

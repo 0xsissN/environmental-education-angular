@@ -13,7 +13,9 @@ import { toast } from 'ngx-sonner';
 })
 export class NavbarComponent {
   isAuth: boolean = false
+  
   constructor(private authState: AuthStateService, private router: Router) { }
+
   ngOnInit() {
     this.authState.authState$.subscribe((state) => {
       this.isAuth = !!state
