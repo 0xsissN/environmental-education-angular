@@ -17,10 +17,6 @@
         "title": "Flora",
         "images": [
             {
-                "url": "assets/img/flower/amancaya.webp",
-                "alt": "Flor Amancaya"
-            },
-            {
                 "url": "assets/img/flower/azucena.webp",
                 "alt": "Flor Azucena"
             },
@@ -42,10 +38,6 @@
     {
         "title": "Fauna",
         "images": [
-            {
-                "url": "assets/img/animal/dorado.webp",
-                "alt": "Animal Dorado"
-            },
             {
                 "url": "assets/img/animal/flamenco.webp",
                 "alt": "Animal Flamenco"
@@ -75,10 +67,6 @@
             {
                 "url": "assets/img/species/quirquincho",
                 "alt": "Especie Quirquincho"
-            },
-            {
-                "url": "assets/img/species/taruca",
-                "alt": "Especie Taruca"
             }
         ],
         "link": "/biodiversity/species"
