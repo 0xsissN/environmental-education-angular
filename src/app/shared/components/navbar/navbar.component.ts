@@ -3,6 +3,7 @@ import { Router, RouterLink } from '@angular/router';
 import { AuthStateService } from '../../../core/services/auth-state.service';
 import { NgIf } from '@angular/common';
 import { toast } from 'ngx-sonner';
+import { GeneratePdfComponent } from '../generate-pdf/generate-pdf.component';
 
 @Component({
   selector: 'app-navbar',
@@ -13,6 +14,7 @@ import { toast } from 'ngx-sonner';
 })
 export class NavbarComponent {
   isAuth: boolean = false
+  generate: GeneratePdfComponent = new GeneratePdfComponent()
   
   constructor(private authState: AuthStateService, private router: Router) { }
 
@@ -20,6 +22,10 @@ export class NavbarComponent {
     this.authState.authState$.subscribe((state) => {
       this.isAuth = !!state
     })
+  }
+
+  generatePDf(){
+    this.generate.generatePdf()
   }
 
   async logOut() {

@@ -1,7 +1,7 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
     <a class="navbar-brand" routerLink="/home">
-      <img src="../../../../assets/img/icons/logo.svg" alt="logo" class="icon-size">
+      <img src="../../../../assets/img/icons/logo.svg" alt="logo" class="icon-size" title="logo">
     </a>
 
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,6 +21,12 @@
         </li>
         <li class="nav-item">
           <a class="nav-link" routerLink="/videos" routerLinkActive="active">Videos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" routerLink="/graphs" routerLinkActive="active">Gráficos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="generatePDf()">Revista</a>
         </li>
       </ul>
 

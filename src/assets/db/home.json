@@ -1,17 +1,17 @@
 [
     {
         "title": "Inicio",
-        "content": "La biodiversidad en Tarija es un tesoro natural que refleja la riqueza de nuestros ecosistemas, desde sus montañas y valles hasta sus ríos y bosques. Este entorno diverso no solo alberga una variedad de especies únicas, sino que también sustenta la vida y la cultura de nuestras comunidades. Sin embargo, los desafíos ambientales como el cambio climático, la deforestación y la urbanización amenazan este equilibrio. Es fundamental entender la importancia de conservar nuestra biodiversidad y adoptar prácticas sostenibles que protejan nuestro entorno para las futuras generaciones.",
+        "content": "La biodiversidad en Tarija es un valioso tesoro natural que refleja la riqueza de sus ecosistemas, incluyendo montañas, valles, ríos y bosques. Este entorno diverso alberga especies únicas y sustenta la vida y cultura de las comunidades locales. Sin embargo, enfrenta desafíos ambientales como el cambio climático, la deforestación y la urbanización, que amenazan su equilibrio. Por lo tanto, es crucial conservar la biodiversidad y adoptar prácticas sostenibles para proteger el entorno de las futuras generaciones.",
         "imageUrl": "assets/img/main/inicio.webp"
     },
     {
         "title": "Contextos y Desafios",
-        "content": "La biodiversidad en Tarija se encuentra en una encrucijada crítica en términos de biodiversidad. La deforestación, impulsada por la expansión agrícola y la explotación de recursos naturales, ha llevado a una pérdida significativa de ecosistemas. La intervención humana ha acelerado esta crisis, afectando no solo la flora y fauna locales, sino también los ciclos ecológicos esenciales. Además, la falta de una gestión adecuada de recursos hidrobiológicos ha resultado en la sobreexplotación de especies acuáticas, lo que pone en riesgo la seguridad alimentaria y el equilibrio ecológico.",
+        "content": "La biodiversidad en Tarija enfrenta una crisis crítica debido a la deforestación, provocada por la expansión agrícola y la explotación de recursos naturales, lo que ha llevado a la pérdida de ecosistemas. La intervención humana ha afectado gravemente a la flora y fauna locales, así como a los ciclos ecológicos esenciales. Además, la falta de gestión adecuada de los recursos hidrobiológicos ha causado la sobreexplotación de especies acuáticas, poniendo en riesgo tanto la seguridad alimentaria como el equilibrio ecológico.",
         "imageUrl": "assets/img/main/contexto.webp"
     },
     {
         "title": "Marco Legal y Normativo",
-        "content": "El marco legal y normativo en Tarija es fundamental para la protección de su biodiversidad. La Gobernación ha implementado diversas leyes y políticas que buscan regular el uso sostenible de los recursos naturales y promover la conservación ambiental. Entre estas se destacan la Ley Departamental 129 y el Decreto Departamental 017/2016, que establecen directrices para el manejo integral de cuencas y la gestión ambiental. Sin embargo, aunque existen disposiciones legales, su implementación efectiva es clave para revertir las tendencias actuales de degradación ambiental. La colaboración entre el gobierno, las organizaciones locales y la comunidad es esencial para fortalecer este marco normativo y asegurar un futuro sostenible para Tarija.",
+        "content": "El marco legal en Tarija es crucial para proteger su biodiversidad. La Gobernación ha implementado leyes y políticas, como la Ley Departamental 129 y el Decreto Departamental 017/2016, que regulan el uso sostenible de los recursos y promueven la conservación ambiental. No obstante, la efectiva implementación de estas normativas es fundamental para combatir la degradación ambiental. La colaboración entre el gobierno, organizaciones locales y la comunidad es esencial para fortalecer este marco y asegurar un futuro sostenible para Tarija.",
         "imageUrl": "assets/img/main/legal.webp"
     }
 ]

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { toast } from 'ngx-sonner';
 
 @Component({
   selector: 'app-form-contact',
@@ -8,5 +9,7 @@ import { Component } from '@angular/core';
   styleUrl: './form-contact.component.scss'
 })
 export class FormContactComponent {
-
+  showMessage(){
+    toast.success('Mensaje enviado correctamente')
+  }
 }
