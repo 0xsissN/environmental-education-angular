@@ -11,7 +11,7 @@
 
       <div class="carousel-inner">
         <div *ngFor="let image of item.images; let i = index" class="carousel-item" [class.active]="i === 0">
-          <img [src]="image.url" class="d-block w-100" [alt]="image.alt">
+          <img [src]="image.url" class="d-block w-100" [alt]="image.alt" title="img">
         </div>
       </div>
 

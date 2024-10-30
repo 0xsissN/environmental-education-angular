@@ -1,7 +1,7 @@
 <div class="video-sections-container">
   <div *ngFor="let video of videos" class="video-card">
     <a [href]="video.videoUrl" target="_blank" class="thumbnail-container">
-      <img [src]="video.imageUrl" [alt]="video.title" class="thumbnail">
+      <img [src]="video.imageUrl" [alt]="video.title" class="thumbnail" title="img">
       <div class="play-overlay">
         <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
           <path d="M8 5v14l11-7z" />

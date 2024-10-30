@@ -4,8 +4,7 @@
             <div class="text-center mb-4">
                 <a href="#"
                     class="text-decoration-none fs-3 fw-semibold text-dark d-flex align-items-center justify-content-center">
-                    <img class="me-2" src="../../../../assets/img/icons/logo.svg" alt="logo"
-                        style="width: 80px; height: 80px;" />
+                    <img class="me-2" id="icon-size" src="../../../../assets/img/icons/logo.svg" alt="logo" title="logo"/>
                     Educación Ambiental
                 </a>
             </div>
@@ -17,8 +16,7 @@
                     <form class="needs-validation" [formGroup]="form" (ngSubmit)="submit()">
                         <div class="mb-3">
                             <label for="email" class="form-label">Tu correo</label>
-                            <input type="email" class="form-control" id="email" name="email"
-                                placeholder="name@company.com" formControlName="email" />
+                            <input type="email" class="form-control" id="email" name="email" placeholder="name@company.com" formControlName="email" />
                             @if(isRequired('email')) {
                             <small class="text-danger">Este campo es requerido</small>
                             }
@@ -28,8 +26,7 @@
                         </div>
                         <div class="mb-3">
                             <label for="password" class="form-label">Contraseña</label>
-                            <input type="password" class="form-control" id="password" name="password"
-                                placeholder="••••••••" formControlName="password" />
+                            <input type="password" class="form-control" id="password" name="password" placeholder="••••••••" formControlName="password" />
                             @if(isRequired('password')) {
                             <small class="text-danger">Este campo es requerido</small>
                             }
