@@ -1,0 +1,15 @@
+<div class="search-container">
+    <input type="text" [(ngModel)]="query" (input)="searchItem()" placeholder="Buscar ecosistemas, flora, fauna, etc." />
+
+    <div *ngIf="results.length > 0" class="results">
+        <ul>
+            <li *ngFor="let item of results" (click)="selectItem(item)" class="clickable-item">
+                <strong>{{ item }}</strong>
+            </li>
+        </ul>
+    </div>
+
+    <div *ngIf="results.length === 0 && query.trim()">
+        <p>No se encontraron resultados para "{{ query }}"</p>
+    </div>
+</div>
