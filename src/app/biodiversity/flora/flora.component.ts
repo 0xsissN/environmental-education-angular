@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { NavbarComponent } from '../../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../../shared/components/footer/footer.component';
 import { CardSectionComponent } from '../../shared/components/card-section/card-section.component';
@@ -14,7 +14,7 @@ import { DataService } from '../../core/services/data.service';
 export default class FloraComponent implements OnInit {
   sectionsData: any[] = []
 
-  constructor(private dataService: DataService) { }
+  dataService = inject(DataService);
   
   ngOnInit() {
     this.dataService.getFlora().subscribe(

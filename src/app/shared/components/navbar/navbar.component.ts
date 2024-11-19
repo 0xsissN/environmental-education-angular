@@ -1,36 +1,37 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { Router, RouterLink } from '@angular/router';
 import { AuthStateService } from '../../../core/services/auth-state.service';
-import { NgIf } from '@angular/common';
 import { toast } from 'ngx-sonner';
 import { GeneratePdfComponent } from '../generate-pdf/generate-pdf.component';
 
 @Component({
   selector: 'app-navbar',
   standalone: true,
-  imports: [RouterLink, NgIf],
+  imports: [RouterLink],
   templateUrl: './navbar.component.html',
-  styleUrl: './navbar.component.scss'
+  styleUrl: './navbar.component.scss',
 })
 export class NavbarComponent {
-  isAuth: boolean = false
-  generate: GeneratePdfComponent = new GeneratePdfComponent()
-  
-  constructor(private authState: AuthStateService, private router: Router) { }
+  isAuth: boolean = false;
+  generate: GeneratePdfComponent = new GeneratePdfComponent();
+
+  authState = inject(AuthStateService);
+  router = inject(Router);
 
   ngOnInit() {
     this.authState.authState$.subscribe((state) => {
-      this.isAuth = !!state
-    })
+      this.isAuth = !!state;
+    });
   }
 
-  generatePDf(){
-    this.generate.generatePdf()
+  generatePDf() {
+    toast.success('Cargando PDF');
+    this.generate.generatePdf();
   }
 
   async logOut() {
-    await this.authState.logOut()
-    toast.success('Hasta pronto!!')
-    this.router.navigateByUrl('/home')
+    await this.authState.logOut();
+    toast.success('Hasta pronto!!');
+    this.router.navigateByUrl('/home');
   }
 }

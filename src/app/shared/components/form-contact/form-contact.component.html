@@ -5,19 +5,42 @@
     <form>
       <p>
         <label for="nombre">Nombre <span class="obligatorio">*</span></label>
-        <input type="text" name="introducir_nombre" id="nombre" placeholder="Escribe tu nombre" required>
+        <input
+          type="text"
+          name="introducir_nombre"
+          id="nombre"
+          placeholder="Escribe tu nombre"
+          required
+        />
       </p>
       <p>
         <label for="email">Email <span class="obligatorio">*</span></label>
-        <input type="email" name="introducir_email" id="email" placeholder="Escribe tu Email" required>
+        <input
+          type="email"
+          name="introducir_email"
+          id="email"
+          placeholder="Escribe tu Email"
+          required
+        />
       </p>
       <p>
         <label for="asunto">Asunto <span class="obligatorio">*</span></label>
-        <input type="text" name="introducir_asunto" id="asunto" placeholder="Escribe un asunto" required>
+        <input
+          type="text"
+          name="introducir_asunto"
+          id="asunto"
+          placeholder="Escribe un asunto"
+          required
+        />
       </p>
       <p>
         <label for="mensaje">Mensaje <span class="obligatorio">*</span></label>
-        <textarea name="introducir_mensaje" id="mensaje" placeholder="Deja aquí tu comentario..." required></textarea>
+        <textarea
+          name="introducir_mensaje"
+          id="mensaje"
+          placeholder="Deja aquí tu comentario..."
+          required
+        ></textarea>
       </p>
       <button type="button" (click)="showMessage()">
         <p>Enviar</p>

@@ -1,7 +1,13 @@
 <div class="video-sections-container">
-  <div *ngFor="let video of videos" class="video-card">
+  @for (video of videos; track $index) {
+  <div class="video-card">
     <a [href]="video.videoUrl" target="_blank" class="thumbnail-container">
-      <img [src]="video.imageUrl" [alt]="video.title" class="thumbnail" title="img">
+      <img
+        [src]="video.imageUrl"
+        [alt]="video.title"
+        class="thumbnail"
+        title="img"
+      />
       <div class="play-overlay">
         <svg class="play-icon" viewBox="0 0 24 24" fill="currentColor">
           <path d="M8 5v14l11-7z" />
@@ -9,8 +15,9 @@
       </div>
     </a>
     <div class="video-info">
-      <h3 class="video-title">{{video.title}}</h3>
-      <p class="video-description">{{video.description}}</p>
+      <h3 class="video-title">{{ video.title }}</h3>
+      <p class="video-description">{{ video.description }}</p>
     </div>
   </div>
+  }
 </div>

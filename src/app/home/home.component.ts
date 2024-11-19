@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, inject, OnInit } from '@angular/core';
 import { NavbarComponent } from '../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../shared/components/footer/footer.component';
 import { MapTarijaComponent } from '../shared/components/map-tarija/map-tarija.component';
@@ -8,17 +8,20 @@ import { DataService } from '../core/services/data.service';
 @Component({
   selector: 'app-home',
   standalone: true,
-  imports: [NavbarComponent, FooterComponent, MapTarijaComponent, CardSectionComponent],
+  imports: [
+    NavbarComponent,
+    FooterComponent,
+    MapTarijaComponent,
+    CardSectionComponent,
+  ],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.scss'
+  styleUrl: './home.component.scss',
 })
 export class HomeComponent implements OnInit {
-  sectionsData: any[] = []
-  constructor(private dataService: DataService) { }
+  sectionsData: any[] = [];
+  dataService = inject(DataService);
 
   ngOnInit() {
-    this.dataService.getSections().subscribe(
-      data => this.sectionsData = data
-    )
+    this.dataService.getSections().subscribe((data) => (this.sectionsData = data));
   }
 }

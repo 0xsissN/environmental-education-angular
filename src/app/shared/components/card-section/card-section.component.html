@@ -1,13 +1,15 @@
 <div class="sections-container">
-  <div *ngFor="let section of sections" class="section-card">
-    <h2 class="section-title">{{section.title}}</h2>
+  @for (section of sections; track $index) {
+  <div class="section-card">
+    <h2 class="section-title">{{ section.title }}</h2>
     <div class="section-content">
       <div class="text-content">
-        <p>{{section.content}}</p>
+        <p>{{ section.content }}</p>
       </div>
       <div class="image-container">
-        <img [src]="section.imageUrl" [alt]="section.title" title="img">
+        <img [src]="section.imageUrl" [alt]="section.title" title="img" />
       </div>
     </div>
   </div>
+  }
 </div>

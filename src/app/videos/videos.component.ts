@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { NavbarComponent } from '../shared/components/navbar/navbar.component';
 import { FooterComponent } from '../shared/components/footer/footer.component';
 import { CardVideoSectionComponent } from '../shared/components/card-video-section/card-video-section.component';
@@ -14,7 +14,7 @@ import { DataService } from '../core/services/data.service';
 export class VideosComponent {
   sectionsData: any[] = []
   
-  constructor(private dataService: DataService) { }
+  dataService = inject(DataService)
 
   ngOnInit() {
     this.dataService.getVideos().subscribe(

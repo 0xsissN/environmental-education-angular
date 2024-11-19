@@ -1,4 +1,4 @@
-import { Injectable } from "@angular/core";
+import { inject, Injectable } from "@angular/core";
 import { Auth, authState, signOut } from "@angular/fire/auth";
 import { Observable } from "rxjs";
 
@@ -6,7 +6,7 @@ import { Observable } from "rxjs";
     providedIn: 'root'
 })
 export class AuthStateService {
-    constructor(private auth: Auth) { }
+    auth = inject(Auth)
 
     get authState$(): Observable<any> {
         return authState(this.auth)

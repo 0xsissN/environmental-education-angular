@@ -1,5 +1,4 @@
 import { Component, Input } from '@angular/core';
-import { NgFor } from '@angular/common';
 
 interface Section {
   title: string,
@@ -10,7 +9,7 @@ interface Section {
 @Component({
   selector: 'app-card-section',
   standalone: true,
-  imports: [NgFor],
+  imports: [],
   templateUrl: './card-section.component.html',
   styleUrl: './card-section.component.scss'
 })

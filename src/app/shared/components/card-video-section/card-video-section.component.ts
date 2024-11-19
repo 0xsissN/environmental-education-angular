@@ -1,4 +1,3 @@
-import { NgFor } from '@angular/common';
 import { Component, Input } from '@angular/core';
 
 interface Section {
@@ -11,7 +10,7 @@ interface Section {
 @Component({
   selector: 'app-card-video-section',
   standalone: true,
-  imports: [NgFor],
+  imports: [],
   templateUrl: './card-video-section.component.html',
   styleUrl: './card-video-section.component.scss'
 })
